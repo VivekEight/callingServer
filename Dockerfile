@@ -9,4 +9,4 @@ EXPOSE 3478/tcp
 EXPOSE 5349/tcp
 
 # Run Coturn
-CMD ["turnserver", "-c", "/etc/coturn/turnserver.conf", "--no-console-log"]
+CMD ["turnserver", "-c", "/etc/coturn/turnserver.conf"]
